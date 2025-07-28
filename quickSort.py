@@ -22,6 +22,6 @@ def quicksort(arr):
     # Step 3: Recursively sort the less and greater subarrays
     return quicksort(less) + equal + quicksort(greater)
 
-arr = [10, 7, 8, 9, 1, 5]
+arr = [7,9,0,3,4,5,5,1,6,8,2]
 sorted_arr = quicksort(arr)
 print("Sorted array:", sorted_arr)
