@@ -1,0 +1,5 @@
+Quicksort
+Quicksort is a fast and efficient sorting algorithm that uses a divide-and-conquer approach to organize elements in a specific order, such as ascending or descending. It works by selecting a pivot element, then partitioning the array so that all elements smaller than the pivot move to the left, and all larger elements move to the right. This partitioning is followed by recursively sorting the subarrays on each side of the pivot until the entire array is sorted. Quicksort performs well on large datasets, with a best and average-case time complexity of O(n log n), though its worst case is O(n²) when poor pivot choices are made.
+
+Randomized Quicksort
+	Randomized Quicksort is more effective because it reduces the likelihood of consistently selecting poor pivots. By choosing the pivot randomly, the chances of encountering worst-case scenarios are significantly lower, helping the algorithm maintain an average time complexity of O(n log n).
